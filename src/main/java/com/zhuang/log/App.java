@@ -16,6 +16,7 @@ public class App
     	
     	logger.debug("aaaaa");
     	logger.debug("bbbbb");
+    	logger.debug("ccccc");
     	
     }
 }
