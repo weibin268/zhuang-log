@@ -1,8 +1,6 @@
 package com.zhuang.log;
 
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import com.zhuang.log.test.Log4jTest;
 
 /**
  * Hello world!
@@ -12,11 +10,10 @@ public class App
 {
     public static void main( String[] args )
     {
-    	Logger logger = LoggerFactory.getLogger(App.class);
+
+    	Log4jTest log4jTest=new Log4jTest();
+    	log4jTest.test();
     	
-    	logger.debug("aaaaa");
-    	logger.debug("bbbbb");
-    	logger.debug("ccccc");
     	
     }
 }
