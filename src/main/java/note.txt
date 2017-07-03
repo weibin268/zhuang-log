@@ -1,0 +1,1 @@
+1、“log4j.properties”文件的第一行必须为空；
